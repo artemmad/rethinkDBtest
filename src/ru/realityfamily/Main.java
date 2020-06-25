@@ -19,5 +19,7 @@ public class Main {
         for (Object doc : cursor) {
             System.out.println(doc);
         }
+
+        System.out.println("Ia Ispolnilsya___________________________________");// Это строчка никогда не будет выполнена. Выполнение слушателя изменений происходит в том же потоке
     }
 }
